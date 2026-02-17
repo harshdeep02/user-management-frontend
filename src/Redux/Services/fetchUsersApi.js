@@ -1,5 +1,6 @@
 import axios from "axios"
 const baseUrl = import.meta.env.VITE_BASE_URL
+console.log(baseUrl)
 
 export const fetchUserApi = async({url})=>{
    return await axios({url: `${baseUrl}/${url}`,

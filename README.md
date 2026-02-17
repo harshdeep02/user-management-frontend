@@ -111,8 +111,8 @@ This ensures:
 ### 1️⃣ Clone the Repository
 
 ```bash
-git clone <your-repository-url>
-cd user-management-app
+git clone https://github.com/harshdeep02/user-management-frontend.git
+cd user-management-frontend
 ```
 
 ---
@@ -142,17 +142,18 @@ Since no backend API was provided, JSON Server is used as a mock API.
 Globally:
 
 ```bash
+git clone https://github.com/harshdeep02/user-management-backend.git
 cd backend
 ```
 ### Run Json Server
 
 ```bash
-npm run start
+npm run dev
 ```
 
 ---
 
-API Base URL:
+API Local Base URL:
 
 ```
 http://localhost:3001/users
