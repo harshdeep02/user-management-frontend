@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+.Toastify__toast {
+    min-height: 58px !important;
+    font-size: 14px;
+}
